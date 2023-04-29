@@ -1,6 +1,6 @@
 import {Text, View} from "react-native-web";
 
-const TaskCardList = ({task}) =>{
+const TaskCard = ({task}) =>{
 
     return (
         <View style={{margin: 10, border: 1, borderColor: "#C3DCE3", borderRadius: 5, borderStyle: "solid", width: "20%", padding: 10}}>
@@ -19,4 +19,4 @@ const TaskCardList = ({task}) =>{
     );
 }
 
-export default TaskCardList;
+export default TaskCard;
